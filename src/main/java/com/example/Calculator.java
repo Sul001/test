@@ -13,4 +13,5 @@ public class Calculator {
     public int tro (int a, int b) {
         return a * b;
     }
+
 }
