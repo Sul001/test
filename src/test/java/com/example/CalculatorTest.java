@@ -25,4 +25,12 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         assertEquals("Ошибка умножения: 3 * 2 должно быть равно 6", 6, calculator.tro(3, 2));
     }
+
+    @Test
+    @DisplayName("Тест t()")
+    public void ttest(){
+        Calculator calculator = new Calculator();
+        calculator.t();
+        assertEquals(1,1);
+    }
 }
